@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.datafatchingfromapi.Login.SignUpActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="User Sign Up"
+        android:textColor="#F8F5F5"
+        android:textSize="20dp" />
+
+    <EditText
+        android:background="@drawable/search_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter First Name"
+        android:textColor="#000"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editfName"
+        android:gravity="center"/>
+
+    <EditText
+        android:background="@drawable/search_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Last Name"
+        android:textColor="#000"
+        android:ems="10"
+        android:layout_below="@+id/editfName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editlName"
+        android:gravity="center"/>
+
+    <EditText
+        android:background="@drawable/search_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"
+        android:textColor="#000"
+        android:ems="10"
+        android:layout_below="@+id/editlName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editEmail"
+        android:gravity="center"/>
+
+    <EditText
+        android:background="@drawable/search_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Phone"
+        android:textColor="#000"
+        android:ems="10"
+        android:layout_below="@+id/editEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editphone"
+        android:gravity="center"/>
+
+    <EditText
+        android:background="@drawable/search_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:textColor="#000"
+        android:ems="10"
+        android:layout_below="@+id/editphone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editPassword"
+        android:gravity="center"/>
+
+    <Button
+
+        android:background="@drawable/search_bg"
+        android:id="@+id/buttonRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="20dp"
+        android:text="SIGN UP" />
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonRegister"
+        android:layout_marginTop="20dp"
+        android:text="Already have register"
+        android:gravity="center"/>
+
+</RelativeLayout>
